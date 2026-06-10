@@ -515,7 +515,7 @@ const Footer = () => {
 
             <div className="min-w-0">
               <span className="block text-[10px] font-mono text-slate-500 uppercase tracking-wider">
-                Operational Base
+                Location
               </span>
               <span className="text-sm font-semibold text-slate-200 block mt-0.5">
                 12 Old Bond Street, London, England,W1S4PW
@@ -523,7 +523,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-4 bg-white/[0.03] border border-white/[0.08] p-5 rounded-2xl group hover:bg-[#F36F21]/5 hover:border-[#F36F21]/25 transition-colors duration-200 text-left">
+          {/* <div className="flex items-center gap-4 bg-white/[0.03] border border-white/[0.08] p-5 rounded-2xl group hover:bg-[#F36F21]/5 hover:border-[#F36F21]/25 transition-colors duration-200 text-left">
             <div className="p-3 rounded-xl bg-[#F36F21]/10 text-[#F36F21] shrink-0">
               <ShieldCheck className="w-5 h-5" />
             </div>
@@ -536,7 +536,7 @@ const Footer = () => {
                 17263881
               </span>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-4 bg-white/[0.03] border border-white/[0.08] p-5 rounded-2xl group hover:bg-[#F36F21]/5 hover:border-[#F36F21]/25 transition-colors duration-200 text-left">
             <div className="p-3 rounded-xl bg-[#F36F21]/10 text-[#F36F21] shrink-0">

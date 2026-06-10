@@ -753,13 +753,13 @@ const Contact = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
           <div className="grid grid-cols-1 md:grid-cols-3 border-y border-[#111111]/15">
-            <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
+            {/* <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
               <Building2 className="w-5 h-5 text-[#F36F21] mb-5" />
               <p className="text-xs font-black uppercase tracking-[0.25em] text-[#5F5F5F]">
-                Company No
+                Company Reg No 
               </p>
               <h3 className="mt-2 text-[#111111] font-black">17263881</h3>
-            </div>
+            </div> */}
 
             <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
               <MapPin className="w-5 h-5 text-[#F36F21] mb-5" />
@@ -932,7 +932,7 @@ const Contact = () => {
               Find Us
             </span>
             <h2 className="text-[#111111] text-3xl md:text-5xl font-black">
-              12 Old Bond Street, London
+             12 Old Bond Street, London, England, W1S 4PW
             </h2>
           </div>
 

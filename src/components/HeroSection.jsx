@@ -801,18 +801,18 @@ export default function HeroSection() {
                   </p>
                 </div>
 
-                <div>
+                {/* <div>
                   <p className="font-black text-[#F36F21] uppercase text-xs tracking-widest">
                     Status
                   </p>
                   <p className="mt-1 text-[#5F5F5F]">Active</p>
-                </div>
+                </div> */}
 
                 <div>
                   <p className="font-black text-[#F36F21] uppercase text-xs tracking-widest">
                     Location
                   </p>
-                  <p className="mt-1 text-[#5F5F5F]">London, UK</p>
+                  <p className="mt-1 text-[#5F5F5F]">12 Old Bond Street London England W1S4PW</p>
                 </div>
               </div>
             </div>

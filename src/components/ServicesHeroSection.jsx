@@ -171,7 +171,7 @@ export default function ServicesHeroSection() {
             <div className="bg-white/10 border border-white/15 backdrop-blur-sm p-3 sm:p-4 flex items-center gap-3">
               <MapPin className="w-5 h-5 text-[#F36F21] shrink-0" />
               <span className="text-white text-xs sm:text-sm font-bold tracking-wide">
-                London Based Pest Support
+               12 Old Bond Street, London, England,W1S4PW
               </span>
             </div>
           </div>
