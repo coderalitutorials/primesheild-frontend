@@ -752,14 +752,8 @@ const Contact = () => {
         <div className="absolute -bottom-28 left-0 w-96 h-96 rounded-full bg-[#111111]/8 blur-3xl" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 lg:px-14">
-          <div className="grid grid-cols-1 md:grid-cols-3 border-y border-[#111111]/15">
-            {/* <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
-              <Building2 className="w-5 h-5 text-[#F36F21] mb-5" />
-              <p className="text-xs font-black uppercase tracking-[0.25em] text-[#5F5F5F]">
-                Company Reg No 
-              </p>
-              <h3 className="mt-2 text-[#111111] font-black">17263881</h3>
-            </div> */}
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 border-y border-[#111111]/15">
+          
 
             <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
               <MapPin className="w-5 h-5 text-[#F36F21] mb-5" />
@@ -778,7 +772,59 @@ const Contact = () => {
               </p>
               <h3 className="mt-2 text-[#111111] font-black">London, UK</h3>
             </div>
-          </div>
+          </div> */}
+
+
+
+
+
+
+
+<div className="grid grid-cols-1 md:grid-cols-3 border-y border-[#111111]/15">
+  {/* Address */}
+  <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
+    <MapPin className="w-5 h-5 text-[#F36F21] mb-5" />
+    <p className="text-xs font-black uppercase tracking-[0.25em] text-[#5F5F5F]">
+      Address
+    </p>
+    <h3 className="mt-2 text-[#111111] font-black leading-relaxed">
+      12 Old Bond Street, London, England, W1S 4PW
+    </h3>
+  </div>
+
+  {/* Phone */}
+  <div className="py-8 md:px-8 border-b md:border-b-0 md:border-r border-[#111111]/15">
+    <PhoneCall className="w-5 h-5 text-[#F36F21] mb-5" />
+    <p className="text-xs font-black uppercase tracking-[0.25em] text-[#5F5F5F]">
+      Call Us
+    </p>
+
+    <a
+      href="tel:+447438124888"
+      className="mt-2 inline-block text-[#111111] font-black hover:text-[#F36F21] transition-colors"
+    >
+      07438 124888
+    </a>
+  </div>
+
+  {/* Service Area */}
+  <div className="py-8 md:px-8">
+    <PhoneCall className="w-5 h-5 text-[#F36F21] mb-5" />
+    <p className="text-xs font-black uppercase tracking-[0.25em] text-[#5F5F5F]">
+      Service Area
+    </p>
+    <h3 className="mt-2 text-[#111111] font-black">
+      London, UK
+    </h3>
+  </div>
+</div>
+
+
+
+
+
+
+
 
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
             <div className="lg:col-span-5">
